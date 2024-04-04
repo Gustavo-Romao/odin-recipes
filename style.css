@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.recipe-card {
+    background-color: #506f69;
+    padding: 10px;
+    color: #fafafa;
+    height: 250px;
+}
+
+.recipe-title > p {
+    font-size: 18px;
+}
+
+.flex-feijoada-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px;
+}
+
+.seasoning-container{
+    margin-left: 40px;
+}
